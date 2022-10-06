@@ -4,3 +4,6 @@ créer un dossier ECF auto-ecole puis mettre tout les éléments sauf ECF auto-e
 
 CREER un dossier .vs qui sera a la racine et mettez le dossier ECF auto-ecole et ProjectEvaluation dans ce dossier
 ATTENTION je parle du dossier ECF auto-ecole qui se trouve déja avec le github pas celui que vos avez créer
+
+
+dans le dossier conception vous aurez les définitions et la conception réaliser
