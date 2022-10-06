@@ -4,4 +4,6 @@ créer un dossier ECF auto-ecole puis mettre tout les éléments sauf ECF auto-e
 
 DANS LE DOSSIER bin 
 vous aller jusqu'a net6.0 
-ensuite vous mettez 
+ensuite vous mettez TOUT LES fichier DLL
+dossier de, es , fr, it, ja, ko,pl,pl-BR, ru, runtime, tr, zh-Hans, zh-Hant
+
