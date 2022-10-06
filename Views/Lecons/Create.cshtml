@@ -1,0 +1,45 @@
+﻿@model ECF_auto_ecole.Models.Lecon
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Créer un Rendez-vous</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ModèleVéhicule" class="control-label"></label>
+                <select asp-for="ModèleVéhicule" class ="form-control" asp-items="ViewBag.ModèleVéhicule"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateHeure" class="control-label"></label>
+                <select asp-for="DateHeure" class ="form-control" asp-items="ViewBag.DateHeure"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdÉlève" class="control-label"></label>
+                <select asp-for="IdÉlève" class ="form-control" asp-items="ViewBag.IdÉlève"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdMoniteur" class="control-label"></label>
+                <select asp-for="IdMoniteur" class ="form-control" asp-items="ViewBag.IdMoniteur"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Durée" class="control-label"></label>
+                <input asp-for="Durée" class="form-control" />
+                <span asp-validation-for="Durée" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-controller="Home" asp-action="Index">retour a l'accueil</a>
+</div>
+

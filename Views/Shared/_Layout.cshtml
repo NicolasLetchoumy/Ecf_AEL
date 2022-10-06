@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ECF_auto_ecole</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <h1>Auto Ecole du Lycée</h1>
+            <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                    <a  asp-controller="Home" asp-action="Index">Accueil</a>
+                </li>
+                <li>
+                    <a asp-controller="Home" asp-action="Calendrier">Calendrier</a>
+                </li>
+                <li>
+                    <a asp-controller="Eleves" asp-action="Create">Inscrire élève</a>
+                </li>
+                <li>
+                    <a asp-controller="Eleves" asp-action="Index">Afficher élève</a>
+                </li>
+                <li>
+                    <a asp-controller="Moniteurs" asp-action="Index">Afficher les moniteurs</a>
+                </li>
+                <li>
+                    <a asp-controller="Moniteurs" asp-action="Create">Ajouter un moniteur</a>
+                </li>
+                <li>
+                    <a asp-controller="Lecons" asp-action="Create"> Créer un Rendez-vous</a>
+                </li>
+                <li>
+                    <a asp-controller="Lecons" asp-action="Index"> Afficher les rendez-vous</a>
+                </li>
+                <li>
+                    <a asp-controller="Vehicules" asp-action="Index"> Afficher les véhicule</a>
+                </li>
+                <li>
+                    <a asp-controller="Vehicules" asp-action="Create"> Ajouter un véhicule</a>
+                </li>
+            </ul>
+    </header>
+    <main>
+            @RenderBody()
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

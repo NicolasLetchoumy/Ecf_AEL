@@ -1,0 +1,59 @@
+﻿@model IEnumerable<ECF_auto_ecole.Models.Moniteur>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NomMoniteur)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrénomMoniteur)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateNaissance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateEmbauche)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Activité)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomMoniteur)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrénomMoniteur)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateNaissance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateEmbauche)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Activité)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdMoniteur">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdMoniteur">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdMoniteur">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

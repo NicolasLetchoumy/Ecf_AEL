@@ -1,0 +1,59 @@
+﻿@model IEnumerable<ECF_auto_ecole.Models.Eleve>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Créer un élève</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NomÉlève)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrénomÉlève)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Code)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Conduite)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateNaissance)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomÉlève)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrénomÉlève)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Code)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Conduite)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateNaissance)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdÉlève">Modifié un élève</a> |
+                <a asp-action="Details" asp-route-id="@item.IdÉlève">afficher l'élève'</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdÉlève">supprimer l'élève'</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ECF_auto_ecole.Models.Modele>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Marque)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Année)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateAchat)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Marque)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Année)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateAchat)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ModèleVéhicule">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ModèleVéhicule">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ModèleVéhicule">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,54 @@
+﻿@model ECF_auto_ecole.Models.Eleve
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Inscrire un élève</h1>
+
+<h4>élève</h4>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="IdÉlève" class="control-label"></label>
+                <input asp-for="IdÉlève" class="form-control" />
+                <span asp-validation-for="IdÉlève" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NomÉlève" class="control-label"></label>
+                <input asp-for="NomÉlève" class="form-control" />
+                <span asp-validation-for="NomÉlève" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PrénomÉlève" class="control-label"></label>
+                <input asp-for="PrénomÉlève" class="form-control" />
+                <span asp-validation-for="PrénomÉlève" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Code" /> @Html.DisplayNameFor(model => model.Code)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Conduite" /> @Html.DisplayNameFor(model => model.Conduite)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateNaissance" class="control-label"></label>
+                <input asp-for="DateNaissance" class="form-control" />
+                <span asp-validation-for="DateNaissance" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Créer" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-controller="Home" asp-action="Index">Retour a l'accueil'</a>
+</div>
+

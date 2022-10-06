@@ -1,0 +1,164 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ECF_auto_ecole
+build_property.RootNamespace = ECF_auto_ecole
+build_property.ProjectDir = C:\Users\DWWM2\OneDrive\Bureau\CDA\projet conception akinator\leProjet\ECF auto-ecole\ECF auto-ecole\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\DWWM2\OneDrive\Bureau\CDA\projet conception akinator\leProjet\ECF auto-ecole\ECF auto-ecole
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Calendriers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsZW5kcmllcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Calendriers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsZW5kcmllcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Calendriers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsZW5kcmllcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Calendriers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsZW5kcmllcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Calendriers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsZW5kcmllcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Eleves/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxldmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Eleves/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxldmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Eleves/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxldmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Eleves/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxldmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Eleves/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxldmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Home/Calendrier.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWxlbmRyaWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Lecons/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Lecons/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Lecons/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Lecons/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Lecons/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Modeles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Modeles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Modeles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Modeles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Modeles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Moniteurs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uaXRldXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Moniteurs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uaXRldXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Moniteurs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uaXRldXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Moniteurs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uaXRldXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Moniteurs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uaXRldXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Vehicules/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Vehicules/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Vehicules/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Vehicules/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Vehicules/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DWWM2/OneDrive/Bureau/CDA/projet conception akinator/leProjet/ECF auto-ecole/ECF auto-ecole/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-yi4juhnur6

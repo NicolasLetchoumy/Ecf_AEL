@@ -1,0 +1,48 @@
+﻿@model ECF_auto_ecole.Models.Eleve
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Eleve</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NomÉlève)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NomÉlève)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PrénomÉlève)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PrénomÉlève)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Code)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Code)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Conduite)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Conduite)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DateNaissance)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DateNaissance)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.IdÉlève">Modifié</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

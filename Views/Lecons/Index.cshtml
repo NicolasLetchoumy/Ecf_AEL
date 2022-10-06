@@ -1,0 +1,59 @@
+﻿@model IEnumerable<ECF_auto_ecole.Models.Lecon>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-controller="Lecons" asp-action="Create">Créer un rendez-vous</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Durée)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateHeureNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdMoniteurNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdÉlèveNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ModèleVéhiculeNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Durée)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateHeureNavigation.DateHeure)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdMoniteurNavigation.IdMoniteur)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdÉlèveNavigation.IdÉlève)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ModèleVéhiculeNavigation.ModèleVéhicule)
+            </td>
+            <td>
+                    <a asp-controller="Lecons" asp-action="Edit" asp-route-id="@item.IdÉlève">Modifié un Rendez-vous</a> 
+                    <a asp-controller="Lecons" asp-action="Details" asp-route-id="@item.IdÉlève">afficher un rendez-vous</a> 
+                    <a asp-controller="Lecons" asp-action="Delete" asp-route-id="@item.IdÉlève">supprimer un rendez-vous</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
